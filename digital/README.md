@@ -20,3 +20,6 @@ This is a collection of basic building blocks for electronic circuits.
 - Key pad
 - Push buttons
 
+--- 
+
+[back](../README.md)

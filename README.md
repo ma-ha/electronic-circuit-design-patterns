@@ -8,10 +8,10 @@ Mostly circuit design starts with a [power-supply]. You might also need [filter]
 
 ## Circuit Design Pattern Categories
 
-- [amplifier]
-- [digital]
-- [filter]
-- [misc]
-- [PCB]
-- [power-supply]
-- [protection]
+- [amplifier](amplifier/README.md)
+- [digital circuit design patterns](digital/README.md)
+- [filter circuit](filte/README.md)
+- [misc circuit design patterns](misc/README.md)
+- [PCB design patterns](PCB/README.md)
+- [power-supply circuits](power-supply/README.md)
+- [protection circuits](protection/README.md)

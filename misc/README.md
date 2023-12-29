@@ -13,3 +13,7 @@ This is a collection of basic building blocks for electronic circuits.
 - Schmitt trigger
 - Voltage follower / impedance converter
 - Zero crossing detector
+
+--- 
+
+[back](../README.md)

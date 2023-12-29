@@ -19,3 +19,7 @@ Bipolar Transistor Circuits:
 
 Misc:
 - Voltage controlled amplifier (VCA)
+
+--- 
+
+[back](../README.md)
