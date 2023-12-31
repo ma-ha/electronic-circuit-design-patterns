@@ -16,8 +16,9 @@ Buck converters are step-down converters, means the output voltage is lower than
 The basic functionality is simple:
 1. A current pulse "charges" an inductor with energy (remember, capacitors are conductive for pulses or HF)
 2. If the current is switched off, the inductor discharges (remember, the inductor "want to maintain" the current) and charges the capacitor.
-3. The load takes energy out of the capacitor and discharges it
-4. If the voltage at capacitor drops below a threshold, repeat step 1 and 2
+3. The capacitor is charged to the desired output voltage.
+4. The load takes energy out of the capacitor and discharges it
+5. If the voltage at capacitor drops below a threshold, repeat step 1 and 2
 
 If the switching cycle is done fast, the inductor and capacitor can be small, this is why 
 
