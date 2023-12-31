@@ -6,6 +6,7 @@ This is a collection of basic building blocks for electronic circuits.
 - Flip flop
 - Fly back diode
 - Function generator
+  - Zener diode based square wave signal
 - H-Bridge motor driver
 - Noise generator
 - Peak detector
