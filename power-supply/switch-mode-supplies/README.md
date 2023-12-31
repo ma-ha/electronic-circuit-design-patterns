@@ -4,10 +4,17 @@ Here only yhe basics are explained.
 In real world integrated circuits are available to do switching and voltage sensing. 
 Some even have the diode built in, so zou only need to add an inductor, a capacitor and some resistors to select the output voltage.
 
-SMPS are high efficient, typically better than 90%. 
+SMPS are high efficient, losses can be less than 10%. 
 
 SMPS can introduce heavy noise, but using filters and with a good design, the noise can be minimized, so they can even used 
 to supply critical circuits (e.g. pro audio).
+
+Since the input voltage should be DC, but quality and voltage are not critical, the rectification can be simplified. 
+Sometimes only one diode and a small capacitor are used. 
+The problem is: Some converters are *not* isolated to the input (buck boost, ...). 
+Rectification of line voltage generates dangerous high voltages, so using non-isolated converters are a no-go there.
+
+# Non-isolated DC-DC converters
 
 ## Buck Converter
 
@@ -41,5 +48,30 @@ Buck/boost converters can generate higher or lower voltage at the output relativ
 Buck/boost converters are e.g. a solution in battery powered circuits: 
 Where the voltage is higher than required when the battery is charged,
 but the battery voltage is below the desired output voltage when the battery is discharged.
+
+
+# Isolated DC-DC converters
+
+## Flyback Converter
+
+This converter generates a DC voltage isolated from the input voltage.
+ 
+![Flyback Converter](flyback.png)
+
+A feedback is required to control the switch for the desired output voltage.
+This feedback is typically done with a optocoupler to keep the isolation from the primary and secondary side.
+
+## Push Pull Converter
+
+TODO
+
+## Half Bridge Converter
+
+TODO
+
+## Isolated Cuk Converter
+
+TODO
+
 
 [back](../README.md) 
