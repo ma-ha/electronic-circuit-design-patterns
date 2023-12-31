@@ -20,7 +20,7 @@ A DC-DC converter is used to generate a desired voltage output from a given or e
 
 - [Linear Regulator](linear-regulator/README.md)
   generate a lower output voltage from a higher input voltage, best for small voltage drops and small current. 
-- Zener diode
+- [Zener diodes](zener-diode/README.md) can be used to produce a stabilized voltage output
 - Switch mode power supply
   - Buck converter
   - boost converter
