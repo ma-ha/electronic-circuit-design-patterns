@@ -4,6 +4,8 @@ Here only yhe basics are explained.
 In real world integrated circuits are available to do switching and voltage sensing. 
 Some even have the diode built in, so zou only need to add an inductor, a capacitor and some resistors to select the output voltage.
 
+SMPS are high efficient, typically better than 90%. 
+
 SMPS can introduce heavy noise, but using filters and with a good design, the noise can be minimized, so they can even used 
 to supply critical circuits (e.g. pro audio).
 
