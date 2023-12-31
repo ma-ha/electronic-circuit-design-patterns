@@ -4,7 +4,12 @@ This is a collection of basic building blocks for electronic circuits.
 
 It is *NOT* about single electronic components.
 
-Mostly circuit design starts with a [power-supply]. You might also need [filter] or [protection] circuits.
+## Beginners Hint
+
+Mostly circuit design starts and ends with a [power-supply]. 
+Seems simple ... it's not!
+
+You might also need [filter] or [protection] circuits.
 
 ## Circuit Design Pattern Categories
 
