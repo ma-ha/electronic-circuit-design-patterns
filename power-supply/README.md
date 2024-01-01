@@ -7,11 +7,11 @@ Even if this is external, it's not done connection a Vcc and GND cable.
 
 - Battery charger
 - [Current source](current-source/README.md)
-- Decoupling capacitors
+- [Decoupling capacitors](decoupling-capacitor/README.md)
 - HV generation circuits
 - Separated supplies (analog/digital)
 - Symmetric power supplies
-- Transformator + rectifier
+- Transformer + rectifier
 
 # DC-DC Converter
 
