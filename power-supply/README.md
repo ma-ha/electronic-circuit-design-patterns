@@ -6,7 +6,7 @@ All circuits need a power supply.
 Even if this is external, it's not done connection a Vcc and GND cable.
 
 - Battery charger
-- Current source 
+- [Current source](current-source/README.md)
 - Decoupling capacitors
 - HV generation circuits
 - Separated supplies (analog/digital)
