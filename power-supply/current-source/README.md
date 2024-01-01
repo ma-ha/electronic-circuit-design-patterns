@@ -29,6 +29,7 @@ Resistance $` R_2 `$ is calculated as
 $$ R_2 = \frac {V_D - V_{BE}}{I_{R2}} $$
 
 and $` R_1 `$ as
+
 $$ R_1 = \frac{V_S - V_D}{I_D + K \cdot I_B} $$
 
 where $` I_D `$ is the LED current and  $` I_B `$ base current of NPN transistor. K = 1.2 to 2 so that $` I_{R1} `$ is low enough to ensure adequate $` I_B `$.
