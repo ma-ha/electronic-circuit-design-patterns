@@ -37,7 +37,7 @@ Boost converters are step-up converters, means the output voltage is higher than
 
 ![Boost Converter](boost.png)
 
-The basic functionality again is simple, if zou understand the buck converter, you should easily derive how boost is working.
+The basic functionality again is simple, if you understand the buck converter, you should easily derive how boost is working.
 
 ## Buck/Boost Converter
 
